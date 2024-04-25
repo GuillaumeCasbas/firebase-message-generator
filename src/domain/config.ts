@@ -1,0 +1,2 @@
+export const FIREBASE_API_SEND = 'https://fcm.googleapis.com/fcm/send';
+export const COMMAND_BASE = `curl --header "Authorization: key=_SERVER_KEY_" --header "Content-Type: application/json" -d '_MESSAGE_' ${FIREBASE_API_SEND}`;
